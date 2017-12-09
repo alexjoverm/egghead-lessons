@@ -2,10 +2,16 @@
   "name": "react-parcel",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-minify"
+  },
   "author": "Alex Jover <alexjovermorales@gmail.com>",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-preset-react-app": "^3.1.0",
+    "parcel-bundler": "^1.1.0"
+  },
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
