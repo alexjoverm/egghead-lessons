@@ -1,0 +1,13 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Alex Jover <alexjovermorales@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
